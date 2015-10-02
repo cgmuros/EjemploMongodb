@@ -25,6 +25,6 @@ router.post('/agregar', function(peticion, respuesta) {
 	
 	nuevoRegistro.save();
 	
-	respuesta.redirect('/tienda111');
+	respuesta.redirect('/tienda');
 	
 } )
