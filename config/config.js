@@ -31,7 +31,7 @@ var config = {
     //port: 3000,
     port: 63833,
     //db: 'mongodb://localhost/nodejs'
-    db: 'mongodb://cgmuros:alfa14@ds063833.mongolab.com/nodejs'
+    db: 'mongodb://cgmuros:alfa14@ds063833.mongolab.com:63833/nodejs'
     
   }
 };
