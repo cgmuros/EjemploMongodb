@@ -15,7 +15,7 @@ router.get('/tienda', function (req, res, next) {
         
         res.render('tienda', {
             titulo: 'Tienda de Camisetas',
-            camisetas: camisetas
+            camisetas: camisetassfgdfgdfgdfg
         });
         
     }); 
