@@ -1,0 +1,17 @@
+extends layout
+
+block content
+    h1
+        a(href="/")=titulo
+    
+    div.agregar
+        a(href="agregar") Agregar
+        
+    div.contenedor
+    
+    - for (var i= 0; i<camisetas.length; ++i) {
+        div.item
+            h2 Camiseta #{camisetas[i].color}
+            img(src="img/"+camisetas[i].imagen, width="250")
+            small Precio:#{camisetas[i].precio} dolares
+    - }
