@@ -8,8 +8,10 @@ var config = {
     app: {
       name: 'ejemplomongodb'
     },
-    port: 3000,
-    db: 'mongodb://localhost/nodejs'
+    //port: 3000,
+    port: 63833,
+    //db: 'mongodb://localhost/nodejs'
+    db: 'mongodb://cgmuros:alfa14@ds063833.mongolab.com'
   },
 
   test: {
