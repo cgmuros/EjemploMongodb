@@ -6,6 +6,7 @@ var express = require('express'),
 
 module.exports = function (app) {
   app.use('/', router);
+    //testing
 };
 
 router.get('/agregar', function(peticion, respuesta) {
